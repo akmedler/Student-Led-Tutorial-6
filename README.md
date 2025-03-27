@@ -24,6 +24,11 @@ Students will:
    - [R Project](https://www.r-project.org/)
    - [RStudio Website](https://posit.co/downloads/)
 
+--- edited notes*
+sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+echo 'export PATH=$PATH:$HOME/edirect' >> ~/.bashrc
+source ~/.bashrc
+
 ---
 
 ## **Step 1: Download SRR Data**
